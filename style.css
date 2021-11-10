@@ -821,7 +821,8 @@ h4 {
   color: #000 !important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
   background: #ffce4c !important;
 }
 
@@ -829,7 +830,8 @@ h4 {
   color: #ffffff !important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,
+.ltc-white:focus {
   color: #000 !important;
   background: #ffce4c !important;
 }
