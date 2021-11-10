@@ -285,6 +285,10 @@ blockquote p {
 
 #bloc-1-hero h1 {
   font-size: 32px;
+  background-color: #3f3f3f;
+  padding: 10px;
+  border-radius: 5px;
+  color: #f69772 !important;
 }
 
 .navbar {
