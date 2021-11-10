@@ -381,6 +381,10 @@ textarea:focus {
   border: solid 2px black !important;
 }
 
+.coordonnees {
+  margin-top: 30px;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -1067,5 +1071,18 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  #bloc-5-cta {
+    background-image: none;
+    background-color: #fff6e4;
+  }
+}
+
+@media (max-width: 375px) {
+  .black-background {
+    padding: 10px;
   }
 }
