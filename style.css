@@ -381,11 +381,6 @@ textarea:focus {
   border: solid 2px black !important;
 }
 
-.obligatoire {
-  color: red;
-  font-weight: bold;
-}
-
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -949,7 +944,6 @@ h4 {
   }
   .navbar .nav {
     padding-top: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
   }
   .navbar.row {

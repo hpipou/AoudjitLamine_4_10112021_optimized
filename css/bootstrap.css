@@ -4857,13 +4857,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #FFCE4C!important;
+  color: black!important;
+  border-radius: 15px;
 }
 
 .nav > li.disabled > a {
