@@ -90,9 +90,9 @@ a:hover {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
+blockquote p {
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .b-parallax {
@@ -264,10 +264,6 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.3);
 }
 
-figcaption {
-  color: #000;
-}
-
 .voffset {
   margin-top: 30px;
 }
@@ -365,6 +361,29 @@ figcaption {
   float: right;
   position: relative;
   z-index: 2;
+}
+
+.formulaire {
+  background-color: #fff6e3;
+  padding: 20px 10px;
+}
+
+#nous-contacter {
+  color: black !important;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+input:focus,
+textarea:focus {
+  background: #ffce4c;
+  color: black;
+  border: solid 2px black !important;
+}
+
+.obligatoire {
+  color: red;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -683,8 +702,13 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
-  font-size: 12px;
+p,
+figcaption {
+  font-size: 14px;
+}
+
+figcaption {
+  color: #575757;
 }
 
 .tight-width-whitespace {
@@ -721,6 +745,11 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
+  line-height: 1.5;
+}
+
+article {
+  margin-bottom: 44px;
 }
 
 footer .white {
@@ -755,11 +784,11 @@ h4 {
   margin-bottom: 24px;
   width: 270px;
   height: 270px;
+  margin: auto;
 }
 
-.portfolio-row {
+#realisations {
   margin-bottom: 44px;
-  margin-top: 50px;
 }
 
 .avatar {
@@ -767,7 +796,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(138, 113, 76, 1);
   padding: 40px 40px 40px 40px;
 }
 
@@ -794,8 +823,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  background: #a12d07 !important;
+  background: #ffce4c !important;
 }
 
 .ltc-white {
@@ -804,6 +832,7 @@ h4 {
 
 .ltc-white:hover {
   color: #000 !important;
+  background: #ffce4c !important;
 }
 
 .ltc-atomic-tangerine {

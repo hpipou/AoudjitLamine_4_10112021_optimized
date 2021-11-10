@@ -2,7 +2,7 @@
 <html lang="Default">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Entreprise de webdesign à Lyon, La chouette agence aide les entreprises à devenir attractives et visibles sur internet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -49,7 +49,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="page2.html" aria-label="aller à la page contact">Contact</a>
+						<a href="#bloc-5-cta"aria-label="aller à la section Contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -69,7 +69,7 @@
 					Entreprise de webdesign à Lyon
 				</h1>
 				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="#bloc-5-cta" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -83,8 +83,7 @@
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h2>
-					La chouette agence est une agence de web design<br>
-					qui aide les entreprises à devenir attractives et visibles sur internet
+					La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet
 				</h2>
 			</div>
 		</div>
@@ -126,9 +125,7 @@
 		<figure class="row voffset-lg voffset">
 			<blockquote class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 				<p>
-					La chouette agence est une excellente agence web !<br>
-					Les designers ont réussi à capturer l'essence de notre entreprises<br>
-					et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon.
+					"La chouette agence est une excellente agence web ! Les designers ont réussi à capturer l'essence de notre entreprises et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."
 				</p>
 				<figcaption>
 					Maxime Guibard, PDG de À nos fourchettes
@@ -152,7 +149,7 @@
 				</h2>
 				<p class="text-center white">
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site.
-					Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à <a href="contact.html" class="ltc-white bold-link" aria-label="contacter notre équipe">nous contacter</a>. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
+					Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à <a href="#bloc-5-cta" class="ltc-white bold-link" aria-label="contacter notre équipe">nous contacter</a>. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
 				</p>
 				<a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a>
 			</div>
@@ -167,8 +164,7 @@
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h2>
-					Nous travaillons avec beaucoup de clients,<br>
-					voici nos réalisations
+					Nous travaillons avec beaucoup de clients, voici nos réalisations
 				</h2>
 			</div>
 		</div>
@@ -219,12 +215,45 @@
 <!-- bloc-5-cta -->
 <section class="bloc bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta" aria-labelledby="nous contacter">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row formulaire">
 			<h2 class="mg-md text-center tc-white">
-				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
+				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe en complétant le formulaire ci-dessous !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+			<div class="col-sm-6">
+				<form id="form_1">
+					<div class="form-group">
+						<label for="name">
+							* Indiquez votre nom
+						</label>
+						<input type="text" id="name" class="form-control" required autocomplete="family-name" />
+					</div>
+					<div class="form-group">
+						<label for="email">
+							* Indiquez votre adresse email
+						</label>
+						<input id="email" class="form-control" type="email" required autocomplete="email"/>
+					</div>
+					<div class="form-group">
+						<label for="input_504">
+							* Indiquez comment vous nous avez connu ?
+						</label>
+						<input class="form-control" type="email" required id="input_504" />
+					</div>
+					<div class="form-group">
+						<label for="message">
+							* Expliquez votre projet (Ajoutez autant de détails que nécessaire)
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div> 
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						Envoyer ma demande
+					</button>
+				</form>
+			</div>
+			<div class="col-sm-6">
+				<p>
+					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+				</p>
 			</div>
 		</div>
 	</div>
