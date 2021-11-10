@@ -676,7 +676,7 @@ a {
 .statement-bloc-text {
   line-height: 26px;
   font-style: italic;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   font-weight: lighter;
   max-width: 520px;
@@ -684,7 +684,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -713,7 +713,7 @@ p {
 
 h2 {
   font-size: 22px;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 h3 {
@@ -721,6 +721,11 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
+}
+
+footer .white {
+  font-size: 13px;
+  color: black !important;
 }
 
 .med-width-whitespace {
@@ -767,7 +772,7 @@ h4 {
 }
 
 .bold-link {
-  font-weight: 900;
+  font-weight: 800;
   text-decoration: underline !important;
 }
 
@@ -802,7 +807,7 @@ h4 {
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #000 !important;
 }
 
 .ltc-atomic-tangerine {
