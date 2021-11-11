@@ -4863,8 +4863,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #FFCE4C!important;
-  color: black!important;
+  background-color: #ffce4c !important;
+  color: black !important;
   border-radius: 15px;
 }
 
@@ -5139,7 +5139,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-width: 480px) and (orientation: landscape) {
   .navbar-fixed-bottom .navbar-collapse,
   .navbar-fixed-top .navbar-collapse {
     max-height: 200px;
