@@ -870,6 +870,11 @@ h4 {
   background-image: url("img/image-de-presentation.bmp");
 }
 
+.h2contact {
+  font-weight: bold !important;
+  color: #000 !important;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
